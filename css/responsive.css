@@ -1,0 +1,51 @@
+@media (max-width: 1010px) {
+    .navbar-nav,
+    button.btn.btn-primary {
+        position: inherit;
+    }
+
+    
+
+}
+
+@media (max-width: 1200px) {
+    .logo img {
+        width: 80%;
+    }
+
+    .navbar>.container {
+        justify-content: inherit;
+        display: inherit;
+        max-width: 90%; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        width: 68%;
+    }
+
+    .navbar-toggler {
+        font-size: smaller;
+        border: none;
+        line-height: 2rem;
+    }
+
+    .nav-link {
+        color: #14555E;
+        font-size: 15px;
+    }
+
+    .hero-bg .container {
+        z-index: 2; /* Ensure the content is above the overlay */
+        top: 0;
+        /*Still need to align center or something here*/
+    }
+
+    .container.position-relative .logo {
+        text-align: center;
+    }
+
+    
+ }
