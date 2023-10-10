@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
     .logo img {
-        width: 80%;
+        /* width: 80%; */
     }
 
     .navbar>.container {
@@ -57,12 +57,11 @@
         max-height: none;
         height: 100%;
         padding 10%;
-        
+
     }
 
     .container.position-relative .logo {
         text-align: center;
     }
 
-    
  }
