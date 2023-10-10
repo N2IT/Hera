@@ -146,13 +146,13 @@ button.btn.btn-primary {
     background-size: cover;
     /* /* height: 1900px; */
     position: relative;
-    max-width: 60%;
+    max-width: 90%;
     margin: auto;
     bottom: 170px; 
     background-size: cover;
     background-position: center;
-    position: absolute;
-    top: ;
+    position: relative;
+    bottom: 10rem;
     left: 0;
     right: 0;
     height: 1900px;
