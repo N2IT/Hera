@@ -107,4 +107,6 @@ button.btn.btn-primary {
 
 .prime-cta {
     color: white;
+    position: relative;
+    top: 4rem;
 }

@@ -1,13 +1,3 @@
-@media (max-width: 1010px) {
-    .navbar-nav,
-    button.btn.btn-primary {
-        position: inherit;
-    }
-
-    
-
-}
-
 @media (max-width: 1200px) {
     .logo img {
         width: 80%;
@@ -18,10 +8,29 @@
         display: inherit;
         max-width: 90%; 
     }
+
+    .navbar-nav,
+    button.btn.btn-primary {
+        position: inherit;
+    }
+
+    .prime-cta {
+        color: white;
+        position: relative;
+        top: 1rem;
+    }
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1010px) {
+    .navbar-nav,
+    button.btn.btn-primary {
+        position: inherit;
+    }
+
+}
+
+@media (max-width: 767px) {
     .navbar-brand {
         width: 68%;
     }
@@ -40,7 +49,15 @@
     .hero-bg .container {
         z-index: 2; /* Ensure the content is above the overlay */
         top: 0;
+        padding: 5%;
         /*Still need to align center or something here*/
+    }
+
+    .hero-bg {
+        max-height: none;
+        height: 100%;
+        padding 10%;
+        
     }
 
     .container.position-relative .logo {
