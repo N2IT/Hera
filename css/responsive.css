@@ -31,12 +31,15 @@
         background-size: cover;
         background-position: center;
         position: relative;
-        bottom: 10rem;
+        bottom: 3rem;
         left: 0;
         right: 0;
-        height: 1900px;
-        z-index: -1; /* Ensure the background image sits behind everything else */
-        
+        height: 1200px;
+        z-index: -1; /* Ensure the background image sits behind everything else */   
+    }
+
+    .big-btn {
+        top: 4rem;
     }
 }
 
@@ -45,6 +48,14 @@
     .navbar-nav,
     button.btn.btn-primary {
         position: inherit;
+    }
+    
+    .btf-bg {
+        bottom: 5rem;
+    }
+
+    .big-btn {
+        font-size: 3rem;
     }
 
 }
@@ -76,11 +87,18 @@
         max-height: none;
         height: 100%;
         padding 10%;
+    }
 
+    .container .row {
+        padding: 5%;
     }
 
     .container.position-relative .logo {
         text-align: center;
+    }
+
+    .big-btn {
+        font-size: 2rem;
     }
 
  }
